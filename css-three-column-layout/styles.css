@@ -1,0 +1,66 @@
+body {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2")
+    format("woff2");
+  unicode-range:
+    u+0000-00ff,
+    u+0131,
+    u+0152-0153,
+    u+02bb-02bc,
+    u+02c6,
+    u+02da,
+    u+02dc,
+    u+2000-206f,
+    u+2074,
+    u+20ac,
+    u+2122,
+    u+2191,
+    u+2193,
+    u+2212,
+    u+2215,
+    u+feff,
+    u+fffd;
+  background-color: rgb(25 150 218);
+  color: white;
+}
+
+.container {
+  width: 100%;
+  padding: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.column-third {
+  text-align: center;
+  justify-content: center;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+img {
+  width: 50px;
+  background-color: white;
+}
+
+.icon {
+  border: solid 25px white;
+  display: flex;
+  background-color: white;
+  width: fit-content;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
