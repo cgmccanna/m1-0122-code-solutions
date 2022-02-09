@@ -1,0 +1,70 @@
+body {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
+}
+
+.container {
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBWXvYC6trAT7zuC8m5xLtlmgzD.woff2") format("woff2");
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  margin-bottom: 15px;
+}
+
+.column-full {
+  text-align: center;
+  padding: 20px 215px;
+}
+
+.column-half {
+  width: 50%;
+  padding: 15px 50px;
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  text-align: left;
+}
+
+button {
+  color: rgb(218 112 106);
+  border: 2px solid rgb(218 112 106);
+  background-color: white;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
+  justify-content: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+p {
+  line-height: 2rem;
+}
+
+section {
+  padding-top: 20px;
+}
