@@ -1,5 +1,5 @@
 /* exported getAverageOfTwoNumbers */
 function getAverageOfTwoNumbers(x, y) {
-  var AverageOfTwoNumbers = (x + y) / 2;
-  return AverageOfTwoNumbers;
+  var averageOfTwoNumbers = (x + y) / 2;
+  return averageOfTwoNumbers;
 }
