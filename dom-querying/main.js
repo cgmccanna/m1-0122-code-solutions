@@ -1,0 +1,14 @@
+console.log('hello, world');
+var h1El = document.querySelector('h1');
+console.log(h1El);
+console.dir(h1El);
+var explEl = document.querySelector('#explanation');
+console.log(explEl);
+console.dir(explEl);
+var hintEl = document.querySelector('.hint');
+console.log(hintEl);
+console.dir(hintEl);
+var pEl = document.querySelectorAll('p');
+console.log(pEl);
+var exLinkEl = document.querySelectorAll('.example-link');
+console.log(exLinkEl);
