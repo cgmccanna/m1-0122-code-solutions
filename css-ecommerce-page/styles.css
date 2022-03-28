@@ -1,0 +1,42 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/dmsans/v10/rP2Hp2ywxg089UriCZOIHQ.woff2") format("woff2");
+}
+
+.light-gray {
+  color: lightgray;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1300px;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-full {
+  text-align: center;
+  width: 100%;
+}
+
+.column-fifth {
+  flex-basis: 20%;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+.taller {
+  height: 375px;
+  background-size: contain;
+}
